@@ -1,90 +1,146 @@
-Wildfire Classification
+# 🔥 FireSentinel AI
 
-A Deep Learning–based system for classifying and detecting wildfires using satellite imagery. The project leverages Convolutional Neural Networks (CNNs) to accurately distinguish between wildfire and non-wildfire regions. Designed to assist in early detection and environmental monitoring, this model supports real-time visualization through an interactive Gradio interface.
+### Deep Learning Based Wildfire Detection & Monitoring System
 
-🚀 Key Features
+🚀 **FireSentinel AI** is an intelligent disaster-monitoring system that detects wildfire-affected regions from satellite imagery using advanced Deep Learning techniques.
+The system helps in **early fire detection, environmental monitoring, and disaster response planning.**
 
-🧠 Built and tested 100+ CNN models for wildfire classification.
+---
 
-🛰️ Processed over 100,000 satellite images from various sources.
+## 🌍 Problem Statement
 
-🎯 Achieved 96% detection accuracy across diverse datasets.
+Wildfires cause severe environmental and economic damage every year.
+Traditional monitoring methods are slow and resource-intensive.
 
-🌍 Implemented image preprocessing, augmentation, and segmentation pipelines to enhance model generalization.
+**FireSentinel AI provides:**
 
-💻 Designed an interactive Gradio app for visualization, prediction, and alert generation.
+* Automated wildfire detection
+* Real-time prediction capability
+* Scalable satellite image analysis
 
-⚙️ Modular design allowing experimentation with multiple architectures (ResNet, Xception, EfficientNet).
+---
 
-🧱 Tech Stack
+## 🧠 Key Features
 
-Programming Language: Python
+✅ Built and trained multiple CNN architectures for wildfire classification
+✅ Processed large satellite image datasets
+✅ Achieved **96% detection accuracy**
+✅ Implemented image preprocessing & augmentation pipelines
+✅ Designed interactive **Gradio web interface** for prediction
+✅ Modular architecture for experimentation with different models
+✅ Supports real-time monitoring use-cases
 
-Deep Learning Frameworks: TensorFlow, Keras
+---
 
-Libraries: OpenCV, NumPy, Matplotlib, Scikit-learn
+## 🏗️ System Workflow
 
-Tools: Google Colab, Gradio, Hugging Face Spaces
+1️⃣ Satellite images are collected from wildfire datasets
+2️⃣ Images undergo preprocessing & augmentation
+3️⃣ Deep Learning models extract spatial fire patterns
+4️⃣ Model predicts **Fire / No-Fire regions**
+5️⃣ Output visualized through Gradio interface
 
-📂 Project Structure
-Wildfire-Classification/
+---
+
+## 🤖 Deep Learning Models Used
+
+* EfficientNet
+* InceptionResNetV2
+* Custom CNN Architectures
+
+---
+
+## 📊 Model Performance
+
+| Metric    | Value |
+| --------- | ----- |
+| Accuracy  | 96%   |
+| Precision | 0.95  |
+| Recall    | 0.96  |
+| F1 Score  | 0.95  |
+
+---
+
+## 💻 Tech Stack
+
+**Programming:** Python
+
+**Frameworks:**
+
+* TensorFlow
+* Keras
+
+**Libraries:**
+
+* OpenCV
+* NumPy
+* Matplotlib
+* Scikit-learn
+
+**Tools & Platforms:**
+
+* Google Colab
+* Gradio
+* Hugging Face Spaces
+
+---
+
+## 📂 Project Structure
+
+```
+FireSentinel-AI/
 │
-├── data/                     # Dataset (satellite imagery)
-├── notebooks/                # Jupyter notebooks for experiments
-├── models/                   # Trained model files
-├── src/                      # Python scripts for training & preprocessing
-│   ├── preprocess.py
-│   ├── train.py
-│   └── evaluate.py
-├── app.py                    # Gradio interface script
-├── requirements.txt          # Required dependencies
-└── README.md                 # Project documentation
+├── data/
+├── models/
+├── src/
+├── notebooks/
+├── app.py
+├── requirements.txt
+└── README.md
+```
 
-⚙️ Installation
+---
 
-Clone the repository
+## ▶️ Installation & Usage
 
-git clone https://github.com/Ruchi1963/Wildfire-Classification.git
-cd Wildfire-Classification
+Clone repository
 
+```
+git clone https://github.com/luvneetverma/FireSentinel-AI.git
+cd FireSentinel-AI
+```
 
 Install dependencies
 
+```
 pip install -r requirements.txt
+```
 
+Run application
 
-Run the Gradio app
-
+```
 python app.py
+```
 
-📊 Results
-Metric	Value
-Accuracy	96%
-Precision	0.95
-Recall	0.96
-F1 Score	0.95
-💡 Insights
+---
 
-Data augmentation significantly improved model robustness on unseen samples.
+## 🚀 Future Improvements
 
-Fine-tuning pretrained architectures (ResNet50, Xception) enhanced feature extraction.
+⭐ Real-time satellite API integration
+⭐ Cloud deployment (AWS / Azure)
+⭐ Fire severity estimation
+⭐ Mobile alert system
+⭐ Multi-class disaster detection
 
-GAN-based augmentation improved class balance by 25%.
+---
 
-🌐 Demo
+## 👨‍💻 Author
 
-🚀 Try the live model here: Wildfire Classifier on Hugging Face
+**Luvneet Verma**
+📧 [luvneetverma123@gmail.com](mailto:luvneetverma123@gmail.com)
 
-🏆 Acknowledgements
+---
 
-Satellite datasets sourced from open wildfire monitoring datasets.
+## ⭐ If you like this project
 
-TensorFlow and Keras for deep learning framework support.
-
-Hugging Face and Gradio for deployment and visualization.
-
-👨‍💻 Author
-
-Ruchir Raj
-📧 rajruchir18@gmail.com
-
+Give it a ⭐ on GitHub to support the work.
